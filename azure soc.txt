@@ -1,0 +1,8 @@
+Ensure no Virtual Machine allow incoming traffic from 0.0.0.0/0 to Known DB-TCP ports
+Ensure no Virtual Machine allow incoming traffic from 0.0.0.0/0 to Known DB-UDP ports
+ENSURE THAT 'SECURE TRANSFER REQUIRED' IS SET TO 'ENABLED'
+Ensure no SQL Databases allow ingress 0.0.0.0/0 (ANY IP)
+Ensure entire Azure infrastructure doesn't have access to Azure SQL Server
+Ensure that the Redis Cache accepts only SSL connections
+Ensure storage for critical data are encrypted with Customer Managed Key
+Ensure that Azure SQL Server Admin is configured with AD Authentication
